@@ -27,6 +27,35 @@
 .pb-0_5rem { padding-bottom: 0.5rem; }
 /*
 
+  FONTS
+  - Maison Book
+  - Maison Bold
+
+*/
+@font-face {
+  font-family: 'Maison-Neue-Book';
+  src: url('../fonts/Maison-Neue-Book.eot');
+  src: url('../fonts/Maison-Neue-Book.woff2') format('woff2'),
+       url('../fonts/Maison-Neue-Book.woff') format('woff'),
+       url('../fonts/Maison-Neue-Book.ttf') format('truetype'),
+       url('../fonts/Maison-Neue-Book.svg#Maison-Neue-Bold') format('svg'),
+       url('../fonts/Maison-Neue-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Maison-Neue-Bold';
+  src: url('../fonts/Maison-Neue-Bold.eot');
+  src: url('../fonts/Maison-Neue-Bold.woff2') format('woff2'),
+       url('../fonts/Maison-Neue-Bold.woff') format('woff'),
+       url('../fonts/Maison-Neue-Bold.ttf') format('truetype'),
+       url('../fonts/Maison-Neue-Bold.svg#Maison-Neue-Bold') format('svg'),
+       url('../fonts/Maison-Neue-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+
   TYPOGRAPHY
   - Font Family
   - Font Weight
@@ -34,7 +63,8 @@
   - Color
 */
 /* Font Family */
-.ff-roboto { font-family: "Roboto", sans-serif; }
+.ff-mn-book { font-family: 'Maison-Neue-Book', sans-serif; }
+.ff-mn-bold { font-family: 'Maison-Neue-Bold', sans-serif; }
 /* Font Weight */
 .fw-regular { font-weight: 400; }
 /* Font Size */
