@@ -1,0 +1,61 @@
+/*
+
+  FLEXBOX
+  - Display
+  - Justify Content
+
+*/
+/* Display */
+.d-flex { display: flex; }
+/* Justify Content */
+.jc-space_between { justify-content: space-between; }
+/*
+
+  SPACING
+  - Margin
+  - Padding
+
+*/
+/* Margin */
+.mb-0_5rem { margin-bottom: 0.5rem; }
+.mb-1rem { margin-bottom: 1rem; }
+.mb-2rem { margin-bottom: 2rem; }
+.mb-4rem { margin-bottom: 4rem; }
+/* Padding */
+.ph-1rem { padding-right: 1rem; padding-left: 1rem; }
+.pt-2rem { padding-top: 2rem; }
+.pb-0_5rem { padding-bottom: 0.5rem; }
+/*
+
+  TYPOGRAPHY
+  - Font Family
+  - Font Weight
+  - Font Size
+  - Color
+*/
+/* Font Family */
+.ff-roboto { font-family: "Roboto", sans-serif; }
+/* Font Weight */
+.fw-regular { font-weight: 400; }
+/* Font Size */
+.fs-1_125rem { font-size: 1.125rem; }
+.fs-1_5rem { font-size: 1.5rem; }
+/* Color */
+.c-coal { color: #333333; }
+.c-ash { color: #828282; }
+.c-silver { color: #bdbdbd; }
+.c-pearl { color: #e0e0e0; }
+/*
+
+  BORDER
+  - Border Width
+  - Border Style
+  - Border Color
+
+*/
+/* Border Width */
+.bbw-1px { border-bottom-width: 1px; }
+/* Border Style */
+.bbs-solid { border-bottom-style: solid; }
+/* Border Color */
+.bbc-pearl { border-bottom-color: #e0e0e0; }
