@@ -1,32 +1,5 @@
 /*
 
-  FLEXBOX
-  - Display
-  - Justify Content
-
-*/
-/* Display */
-.d-flex { display: flex; }
-/* Justify Content */
-.jc-space_between { justify-content: space-between; }
-/*
-
-  SPACING
-  - Margin
-  - Padding
-
-*/
-/* Margin */
-.mb-0_5rem { margin-bottom: 0.5rem; }
-.mb-1rem { margin-bottom: 1rem; }
-.mb-2rem { margin-bottom: 2rem; }
-.mb-4rem { margin-bottom: 4rem; }
-/* Padding */
-.ph-1rem { padding-right: 1rem; padding-left: 1rem; }
-.pt-2rem { padding-top: 2rem; }
-.pb-0_5rem { padding-bottom: 0.5rem; }
-/*
-
   FONTS
   - Maison Book
   - Maison Bold
@@ -56,36 +29,146 @@
 }
 /*
 
+  POSITION
+  - Display
+  - Position
+  - Flex
+  - Justify Content
+
+*/
+/* Display */
+.d-flex { display: flex; }
+/* Position */
+.p-relative { position: relative; }
+.t-1r { top: 1rem; }
+/* Flex */
+.f-1 { flex: 1; }
+.fg-1 { flex-grow: 1; }
+/*
+
+  SIZE
+  - Width
+  - Height
+
+*/
+/* Width */
+.w-100p { width: 100%; }
+/* Height */
+.h-2x { height: 2px; }
+/*
+
+  SPACE
+  - Margin
+  - Padding
+
+*/
+/* Margin */
+.mv-10r { margin-top: 10rem; margin-bottom: 10rem; }
+.mb-2r { margin-bottom: 2rem; }
+.mb-10r { margin-bottom: 10rem; }
+/* Padding */
+.ph-1r { padding-right: 1rem; padding-left: 1rem; }
+.ph-2r { padding-right: 2rem; padding-left: 2rem; }
+.pr-2r { padding-right: 2rem; }
+.pl-2r { padding-left: 2rem; }
+/*
+
   TYPOGRAPHY
-  - Font Family
-  - Font Weight
-  - Font Size
+  - Font family
+  - Font size
+  - Font style
+  - Line height
+  - Text decoration
   - Color
 */
-/* Font Family */
+/* Font family */
 .ff-mn-book { font-family: 'Maison-Neue-Book', sans-serif; }
 .ff-mn-bold { font-family: 'Maison-Neue-Bold', sans-serif; }
-/* Font Weight */
-.fw-regular { font-weight: 400; }
-/* Font Size */
-.fs-1_125rem { font-size: 1.125rem; }
-.fs-1_5rem { font-size: 1.5rem; }
+/* Font size */
+.fs-1_125r { font-size: 1.125rem; }
+.fs-1_5r { font-size: 1.5rem; }
+/* Font style */
+.fs-italic { font-style: italic; }
+/* Line height */
+.lh-1_5 { line-height: 1.5; }
+.lh-1_9 { line-height: 1.9; }
+/* Text decoration */
+.td-none { text-decoration: none; }
 /* Color */
-.c-coal { color: #333333; }
-.c-ash { color: #828282; }
-.c-silver { color: #bdbdbd; }
-.c-pearl { color: #e0e0e0; }
+.c-white { color: #ffffff; }
 /*
 
   BORDER
-  - Border Width
-  - Border Style
-  - Border Color
+  - Width
+  - Color
+  - Style
 
 */
-/* Border Width */
-.bbw-1px { border-bottom-width: 1px; }
-/* Border Style */
-.bbs-solid { border-bottom-style: solid; }
-/* Border Color */
-.bbc-pearl { border-bottom-color: #e0e0e0; }
+/* Width */
+.bbw-1x { border-bottom-width: 1px; }
+/* Color */
+.bbc-white { border-bottom-color: #ffffff; }
+/* Style */
+.bbs-dotted { border-bottom-style: dotted; }
+/*
+
+  BACKGROUND
+  - Background color
+
+*/
+/* Background color */
+.bg-blue { background-color: #0057ff; }
+.bg-white { background-color: #ffffff; }
+/*
+
+  MISCELLANEOUS
+  - Web font smoothing
+
+*/
+/* Web font smoothing */
+.wfs-antialiased { -webkit-font-smoothing: antialiased; }
+/*
+
+  MEDIA QUERY
+  - Not small (+30rem)
+
+*/
+/* Not small */
+@media screen and (min-width: 30rem) {
+  /*
+
+    POSITION
+    - Display
+
+  */
+  /* Display */
+  .d-flex-ns { display: flex; }
+  /* Flex */
+  .f-1-ns { flex: 1; }
+  .f-2-ns { flex: 2; }
+  /*
+
+    SIZE
+    - Max width
+
+  */
+  /* Max width */
+  .mw-50r-ns { max-width: 50rem; }
+  /*
+
+    SPACE
+    - Margin
+    - Padding
+
+  */
+  /* Margin */
+  .mh-auto-ns { margin-right: auto; margin-left: auto; }
+  /* Padding */
+  .pr-2r-ns { padding-right: 2rem; }
+  .pl-2r-ns { padding-left: 2rem; }
+  /* DELETE */
+  .ai-center-ns { align-items: center; }
+  .jc-center-ns { justify-content: center; }
+  .mv-0-ns { margin-top: 0; margin-bottom: 0; }
+  .h-100p-ns { height: 100%; }
+}
