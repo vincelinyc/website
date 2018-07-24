@@ -7,23 +7,15 @@
 */
 @font-face {
   font-family: 'Maison-Neue-Book';
-  src: url('../fonts/Maison-Neue-Book.eot');
-  src: url('../fonts/Maison-Neue-Book.woff2') format('woff2'),
-       url('../fonts/Maison-Neue-Book.woff') format('woff'),
-       url('../fonts/Maison-Neue-Book.ttf') format('truetype'),
-       url('../fonts/Maison-Neue-Book.svg#Maison-Neue-Bold') format('svg'),
-       url('../fonts/Maison-Neue-Book.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/MaisonNeue-Book.woff2') format('woff2'),
+       url('../fonts/MaisonNeue-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Maison-Neue-Bold';
-  src: url('../fonts/Maison-Neue-Bold.eot');
-  src: url('../fonts/Maison-Neue-Bold.woff2') format('woff2'),
-       url('../fonts/Maison-Neue-Bold.woff') format('woff'),
-       url('../fonts/Maison-Neue-Bold.ttf') format('truetype'),
-       url('../fonts/Maison-Neue-Bold.svg#Maison-Neue-Bold') format('svg'),
-       url('../fonts/Maison-Neue-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('../fonts/MaisonNeue-Bold.woff2') format('woff2'),
+       url('../fonts/MaisonNeue-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -54,7 +46,7 @@
 /* Width */
 .w-100p { width: 100%; }
 /* Height */
-.h-2x { height: 2px; }
+.h-1x { height: 1px; }
 /*
 
   SPACE
@@ -153,7 +145,7 @@
 
   */
   /* Max width */
-  .mw-50r-ns { max-width: 50rem; }
+  .mw-42r-ns { max-width: 42rem; }
   /*
 
     SPACE
