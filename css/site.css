@@ -46,7 +46,7 @@
 /* Width */
 .w-100p { width: 100%; }
 /* Height */
-.h-1x { height: 1px; }
+.h-2x { height: 2px; }
 /*
 
   SPACE
@@ -55,9 +55,9 @@
 
 */
 /* Margin */
-.mv-10r { margin-top: 10rem; margin-bottom: 10rem; }
+.mv-12r { margin-top: 12rem; margin-bottom: 12rem; }
 .mb-2r { margin-bottom: 2rem; }
-.mb-10r { margin-bottom: 10rem; }
+.mb-12r { margin-bottom: 12rem; }
 /* Padding */
 .ph-1r { padding-right: 1rem; padding-left: 1rem; }
 .ph-2r { padding-right: 2rem; padding-left: 2rem; }
@@ -131,13 +131,17 @@
 
     POSITION
     - Display
+    - Position
+    - Flex
 
   */
   /* Display */
   .d-flex-ns { display: flex; }
+  /* Position */
+  .t-1_6r-ns { top: 1.6rem; }
   /* Flex */
   .f-1-ns { flex: 1; }
-  .f-2-ns { flex: 2; }
+  .f-2-ns { flex: 1; }
   /*
 
     SIZE
@@ -145,7 +149,7 @@
 
   */
   /* Max width */
-  .mw-42r-ns { max-width: 42rem; }
+  .mw-42r-ns { max-width: 50rem; }
   /*
 
     SPACE
@@ -163,4 +167,12 @@
   .jc-center-ns { justify-content: center; }
   .mv-0-ns { margin-top: 0; margin-bottom: 0; }
   .h-100p-ns { height: 100%; }
+  /*
+
+    TYPOGRAPHY
+    - Font size
+
+  */
+  /* Font size */
+  .fs-2_25r-ns { font-size: 2.25rem; }
 }
