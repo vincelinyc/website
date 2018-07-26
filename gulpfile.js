@@ -42,7 +42,7 @@ gulp.task('compress-reset-css', function() {
 // Minify index.html
 gulp.task('minify-index-html', function() {
   return gulp.src('build/index.html')
-  .pipe(htmlmiin({ collapseWhitespace: true }))
+  .pipe(htmlmin({ collapseWhitespace: true }))
   .pipe(gulp.dest('build/'));
 });
 
@@ -55,8 +55,8 @@ gulp.task('compress-index-html', function() {
 
 // Run tasks in order
 gulp.task('sequence', function(callback) {
-  runSequence('')
+  runSequence('copy', 'minify-site-css', 'minify-reset-css', 'compress-site-css', 'compress-reset-css', 'minify-index-html', 'compress-index-html');
 });
 
 // Run task sequence with `build`
-gulp.task('buid', ['sequence']);
+gulp.task('build', ['sequence']);
