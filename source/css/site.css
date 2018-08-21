@@ -23,7 +23,7 @@
 
 
 a {
-  color: white;
+  color: #F8D090;
 }
 
 /*
@@ -98,6 +98,8 @@ a {
 .td-none { text-decoration: none; }
 /* Color */
 .c-white { color: #ffffff; }
+.c-yellow { color: #F8D090; }
+
 /*
 
   BORDER
@@ -119,8 +121,10 @@ a {
 
 */
 /* Background color */
+.bg-teal { background-color: #104848}
 .bg-blue { background-color: #0057ff; }
 .bg-white { background-color: #ffffff; }
+.bg-yellow { background-color: #F8D090; }
 /*
 
   MISCELLANEOUS
