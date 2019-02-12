@@ -67,6 +67,7 @@ a {
 /* Margin */
 .mv-12r { margin-top: 12rem; margin-bottom: 12rem; }
 .mb-2r { margin-bottom: 2rem; }
+.mt-2r { margin-top: 2rem; }
 .mb-12r { margin-bottom: 12rem; }
 /* Padding */
 .ph-1r { padding-right: 1rem; padding-left: 1rem; }
@@ -112,6 +113,7 @@ a {
 .bbw-1x { border-bottom-width: 1px; }
 /* Color */
 .bbc-white { border-bottom-color: #ffffff; }
+.bbc-blue { border-bottom-color: #1a7b7b; }
 /* Style */
 .bbs-dotted { border-bottom-style: dotted; }
 /*
