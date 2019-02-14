@@ -116,7 +116,7 @@ a {
 
 */
 /* Width */
-.bbw-1x { border-bottom-width: 1px; }
+.bbw-1x { border-bottom-width: 2px; }
 /* Color */
 .bbc-white { border-bottom-color: #ffffff; }
 .bbc-blue { border-bottom-color: #1a7b7b; }
