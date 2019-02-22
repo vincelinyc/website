@@ -1,0 +1,214 @@
+h2 {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #0c5b43;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #2f2f2f;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.basicsection {
+  margin-bottom: 220px;
+}
+
+.largetext {
+  display: block;
+  width: 83%;
+  margin-bottom: 64px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.body {
+  background-color: hsla(41.24999999999996, 100.00%, 96.86%, 1.00);
+  font-family: Calibreweb, sans-serif;
+  font-size: 26px;
+}
+
+.heading {
+  margin-bottom: 31px;
+  font-family: Calibreweb, sans-serif;
+  font-size: 96px;
+  font-weight: 600;
+}
+
+.section {
+  margin-top: 100px;
+}
+
+.datestyle {
+  margin-bottom: 32px;
+  font-family: Inconsolata, monospace;
+  color: #0c5b43;
+  font-size: 19px;
+}
+
+.heading-2 {
+  margin-bottom: 64px;
+  color: hsla(161.7721518987342, 76.70%, 20.20%, 1.00);
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.heading-3 {
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.schedulemargin {
+  margin-bottom: 64px;
+  font-weight: 600;
+}
+
+.columnstyle {
+  margin-bottom: 24px;
+}
+
+.text-block {
+  margin-top: 8px;
+  font-family: Inconsolata, monospace;
+  font-size: 16px;
+}
+
+.heading-4 {
+  font-weight: 600;
+}
+
+.heading-5 {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .largetext {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .heading {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .datestyle {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .heading-2 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .heading-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .schedulemargin {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .text-block {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .heading-4 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .heading-5 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 479px) {
+  .basicsection {
+    margin-bottom: 140px;
+  }
+  .largetext {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .heading {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .section {
+    margin-top: 100px;
+  }
+  .datestyle {
+    margin-bottom: 8px;
+    font-size: 19px;
+  }
+  .heading-2 {
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .heading-3 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .schedulemargin {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .text-block {
+    font-size: 14px;
+  }
+  .mobiletime {
+    font-size: 16px;
+  }
+}
+
+@font-face {
+  font-family: 'Calibreweb';
+  src: url('../fonts/CalibreWeb-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibreweb';
+  src: url('../fonts/CalibreWeb-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibreweb';
+  src: url('../fonts/CalibreWeb-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calibreweb';
+  src: url('../fonts/CalibreWeb-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
