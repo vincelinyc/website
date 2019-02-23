@@ -31,6 +31,19 @@ p {
   line-height: 32px;
 }
 
+a {
+  border-bottom: 1px dashed #e9d4a6;
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+a:hover {
+  border-style: solid solid dashed;
+  border-width: 0px 0px 1px;
+  border-color: #000 #000 hsla(41.438848920863315, 65.26%, 58.24%, 1.00);
+  color: #000;
+}
+
 .image {
   width: 100%;
   height: auto;
@@ -115,6 +128,30 @@ p {
   padding-top: 7px;
 }
 
+.link {
+  border-bottom: 1px dashed #e9d4a6;
+  border-radius: 0px;
+}
+
+.link:hover {
+  border-style: dashed;
+  border-width: 0px 0px 1px;
+  border-color: #000 #000 #daaf4f;
+  color: #000;
+}
+
+.link-copy {
+  border-bottom: 1px dashed #e9d4a6;
+  border-radius: 0px;
+}
+
+.link-copy:hover {
+  border-style: dashed;
+  border-width: 0px 0px 1px;
+  border-color: #000 #000 #daaf4f;
+  color: #000;
+}
+
 @media (max-width: 767px) {
   .largetext {
     width: 100%;
@@ -156,17 +193,31 @@ p {
 }
 
 @media (max-width: 479px) {
+  h4 {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  h5 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  p {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
   .basicsection {
     margin-bottom: 140px;
   }
   .largetext {
     width: 100%;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .heading {
     margin-top: 12px;
     margin-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 64px;
     line-height: 64px;
   }
@@ -175,22 +226,37 @@ p {
   }
   .datestyle {
     margin-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 19px;
   }
   .heading-2 {
     margin-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 22px;
   }
   .heading-3 {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .schedulemargin {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .text-block {
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 14px;
+  }
+  .heading-4 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .heading-5 {
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .mobiletime {
     font-size: 16px;
