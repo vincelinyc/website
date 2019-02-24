@@ -152,6 +152,19 @@ a:hover {
   color: #000;
 }
 
+.div-block {
+  height: 500px;
+  background-image: url('../images/designTeamLikeminds20182x.jpg');
+  background-position: 50% 100%;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .div-block {
+    height: 420px;
+  }
+}
+
 @media (max-width: 767px) {
   .largetext {
     width: 100%;
@@ -216,7 +229,7 @@ a:hover {
   .heading {
     margin-top: 12px;
     margin-bottom: 8px;
-    padding-right: 20px;
+    padding-right: 56px;
     padding-left: 20px;
     font-size: 64px;
     line-height: 64px;
@@ -232,6 +245,7 @@ a:hover {
   }
   .heading-2 {
     margin-top: 0px;
+    margin-bottom: 100px;
     padding-right: 20px;
     padding-left: 20px;
     font-size: 22px;
@@ -245,7 +259,7 @@ a:hover {
     padding-left: 20px;
   }
   .text-block {
-    margin-top: 20px;
+    margin-top: 10px;
     padding-right: 20px;
     padding-left: 20px;
     font-size: 14px;
@@ -260,6 +274,11 @@ a:hover {
   }
   .mobiletime {
     font-size: 16px;
+  }
+  .div-block {
+    height: 400px;
+    margin-left: 0px;
+    background-position: 50% 100%;
   }
 }
 
